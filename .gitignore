@@ -1,7 +1,7 @@
 bin/
- gitignore gradlew*
- settings.gradle
- gitignore .gradle
- build.gradle 
- gradle/
- gradlew.bat 
+gitignore 
+gradlew* 
+build.gradle 
+gradle/ 
+gradlew.bat 
+settings.gradale
