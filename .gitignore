@@ -1,5 +1,7 @@
- gitignore
- .gradle
- build.gradle
+bin/
+ gitignore gradlew*
+ settings.gradle
+ gitignore .gradle
+ build.gradle 
  gradle/
  gradlew.bat 
