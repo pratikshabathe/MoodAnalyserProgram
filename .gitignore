@@ -1,4 +1,3 @@
-bin/
 gitignore 
 gradlew* 
 build.gradle 

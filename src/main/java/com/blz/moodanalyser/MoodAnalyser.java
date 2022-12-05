@@ -10,11 +10,22 @@ public class MoodAnalyser {
 	public String analyseMood() throws MoodAnalyserException {
 		try {
 		if (message.toLowerCase().contains("sad"))
-			return "SAD";
+			return "HAPPY";
 		else 
 			return "HAPPY";
 		}catch(NullPointerException e) {
 			throw new MoodAnalyserException("Invalid Mood");
 		}
 		}
+	
+	/*/public String analyseMood() throws MoodAnalyserException {
+		try {
+		if (message.toLowerCase().contains("sad"))
+			return "SAD";
+		else 
+			return "HAPPY";
+		}catch(NullPointerException e) {
+			throw new MoodAnalyserException("Invalid Mood");
+		}
+		}*/
 }
