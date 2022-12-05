@@ -1,6 +1,6 @@
 gitignore 
-gradlew* 
-build.gradle 
-gradle/ 
-gradlew.bat 
+gradlew*
+build.gradle
+gradle\
+gradlew.bat
 settings.gradale
