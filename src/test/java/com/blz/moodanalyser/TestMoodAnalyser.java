@@ -4,31 +4,34 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class TestMoodAnalyser {
+	
+	
 
-	/*@Test
+	//UC1:
+	@Test
 	public void testMessageContainsSad() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("This is a sad message");
 		String mood = moodAnalyser.analyseMood();
 		System.out.println(mood);
-		assertEquals("SAd" , mood);
+		assertEquals("SAD" , mood);
 	}
 	
-	@Test
+/*	@Test
 	public void testMessageContainsHappy() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("This is a happy message");
 		String mood = moodAnalyser.analyseMood();
 		System.out.println(mood);
 		assertEquals("HAPPY" , mood);
 
-	}*/
+	}
 	
-	/*@Test
+	@Test
 	public void testMessageContainSad() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("I am in sad mood");
 		String SadMood = moodAnalyser.analyseMood();
 		System.out.println(SadMood);
 		assertEquals("SAD" , SadMood);
-	}*/
+	}
 	
 	@Test
 	public void testMessageContainHappy() throws MoodAnalyserException {
@@ -39,10 +42,9 @@ public class TestMoodAnalyser {
 	}
 	
 	
-	
-	
-	
-	/*@Test
+
+	// UC2:
+	@Test
 	public void testMessageContainsHappy() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("This is a happy message");
 		String mood = moodAnalyser.analyseMood();
