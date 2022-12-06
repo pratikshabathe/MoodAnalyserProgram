@@ -22,15 +22,15 @@ public class TestMoodAnalyser {
 
 	}*/
 	
-	@Test
+	/*@Test
 	public void testMessageContainSad() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("I am in sad mood");
 		String SadMood = moodAnalyser.analyseMood();
 		System.out.println(SadMood);
 		assertEquals("SAD" , SadMood);
-	}
+	}*/
 	
-/*	@Test
+	@Test
 	public void testMessageContainHappy() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("I am in happy mood");
 		String HappyMood = moodAnalyser.analyseMood();
