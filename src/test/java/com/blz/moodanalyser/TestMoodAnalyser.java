@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class TestMoodAnalyser {
 
-	@Test
+	/*@Test
 	public void testMessageContainsSad() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("This is a sad message");
 		String mood = moodAnalyser.analyseMood();
@@ -19,13 +19,23 @@ public class TestMoodAnalyser {
 		String mood = moodAnalyser.analyseMood();
 		System.out.println(mood);
 		assertEquals("HAPPY" , mood);
+
+	}*/
+	
+	@Test
+	public void testMessageContainSad() throws MoodAnalyserException {
+		MoodAnalyser moodAnalyser = new MoodAnalyser("I am in sad mood");
+		String SadMood = moodAnalyser.analyseMood();
+		System.out.println(SadMood);
+		assertEquals("SAD" , SadMood);
 	}
 	
 	@Test
-	public void testMessageForNullPointerException() throws MoodAnalyserException {
-		MoodAnalyser moodAnalyser = new MoodAnalyser(null);
-		String mood = moodAnalyser.analyseMood();
-		System.out.println(mood);
-		assertEquals("HAPPY" , mood);
+	public void testMessageContainHappy() throws MoodAnalyserException {
+		MoodAnalyser moodAnalyser = new MoodAnalyser("I am in happy mood");
+		String HappyMood = moodAnalyser.analyseMood();
+		System.out.println(HappyMood);
+		assertEquals("HAPPY" , HappyMood);
 	}
+	
 }
