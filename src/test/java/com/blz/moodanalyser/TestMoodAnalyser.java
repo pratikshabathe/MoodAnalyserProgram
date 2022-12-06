@@ -30,12 +30,34 @@ public class TestMoodAnalyser {
 		assertEquals("SAD" , SadMood);
 	}
 	
-	@Test
+/*	@Test
 	public void testMessageContainHappy() throws MoodAnalyserException {
 		MoodAnalyser moodAnalyser = new MoodAnalyser("I am in happy mood");
 		String HappyMood = moodAnalyser.analyseMood();
 		System.out.println(HappyMood);
 		assertEquals("HAPPY" , HappyMood);
 	}
+	
+	
+	
+	
+	
+	/*@Test
+	public void testMessageContainsHappy() throws MoodAnalyserException {
+		MoodAnalyser moodAnalyser = new MoodAnalyser("This is a happy message");
+		String mood = moodAnalyser.analyseMood();
+		System.out.println(mood);
+		assertEquals("HAPPY" , mood);
+	}
+	
+	@Test
+	public void testMessageForNullPointerException() throws MoodAnalyserException {
+		MoodAnalyser moodAnalyser = new MoodAnalyser(null);
+		String mood = moodAnalyser.analyseMood();
+		System.out.println(mood);
+		assertEquals("HAPPY" , mood);
+	}*/
+	
+	
 	
 }
